@@ -44,12 +44,12 @@ h1{
 .scoreDisplay{
     font-size : 2em;
 }
-.greenText{
+.greenText,#playerScoreDisplay{
     color : hsl(120, 100%, 25%);
 }
-.redText{
-    color : hsl(0, 100%, 25%);
-}   
+.redText,#computerScoreDisplay{
+ color : hsl(0, 100%, 25%);
+}
 .yellowText{
     color : hsl(60, 75%, 54%);
 }
