@@ -30,12 +30,13 @@ function playGame(playerChoice){
     computerDisplay.textContent = `COMPUTER : ${computerChoice}`;
     resultDisplay.textContent = result;
 
-    switch(result){
-        case "You WIN!":
-            resultDisplay.classList.add("greenText");
-            break;
-        case "You LOSE!":
-            resultDisplay.classList.add("redText");
-            break;
+    resultDisplay.classList.remove("greenText", "redText");
+
+    if (result === "YOU WIN!") {
+        resultDisplay.classList.add("greenText");
+    } else if (result === "YOU LOSE!") {
+        resultDisplay.classList.add("redText");
+    } else if(result === "It's a tie!") {
+        resultDisplay.classList.add("yellowText");
     }
 }

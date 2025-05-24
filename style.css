@@ -47,3 +47,6 @@ h1{
 .redText{
     color : hsl(0, 100%, 25%);
 }   
+.yellowText{
+    color : hsl(60, 56%, 57%);
+}
