@@ -41,6 +41,9 @@ h1{
     font-size : 5em;
     margin :30px 0;
 }
+.scoreDisplay{
+    font-size : 2em;
+}
 .greenText{
     color : hsl(120, 100%, 25%);
 }
@@ -48,5 +51,6 @@ h1{
     color : hsl(0, 100%, 25%);
 }   
 .yellowText{
-    color : hsl(60, 56%, 57%);
+    color : hsl(60, 75%, 54%);
 }
+
